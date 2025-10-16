@@ -26,21 +26,32 @@ tl.from(".center-part1 p",{
 tl.from(".center-part1 button",{
     
     opacity:0,
-    duration:0.4
+    duration:0.5
 })
 tl.from(".center-part2 img",{
     
     opacity:0,
-    duration:0.5
+    duration:0.8,
+    x:200,
 },"-=0.5")
 
 tl.from(".section1bottom img",{
     opacity:0,
-    y:30,
+    x:300,
     stagger:0.15,
     duration:0.6
 })
+
+tl.from(" .container .elem" ,{
+    opacity:0,
+    y:300,
+    duration:0.8,
+    stagge:0.5
+})
+
 }
+
+
 
 
 page1Animation()
